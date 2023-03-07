@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUR</title>
+</head>
+<body>
+<h5>b</h5>
+<br>
+<h5>l</h5>
+<br>
+<h5>u</h5>
+<br>
+<h5>r</h5>
+<br>
+<h5>.</h5>
+    <style>
+        body{
+            background-image: linear-gradient(45deg, red, white);
+            background-repeat: no-repeat;
+           background-attachment: fixed;
+            display: flex;
+        }
+
+        h5{
+            filter: blur(10px);
+            top: 200px;
+            left: 450px;
+            text-transform: uppercase;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            text-indent: 25px;
+            font-size: 5em;
+            font-family: Comic Sans MS;
+        }
+
+
+        h5:hover{
+            cursor: pointer;
+            transition-duration: 1s;
+            filter: blur(0px);
+        }
+    </style>
+</body>
+</html>
